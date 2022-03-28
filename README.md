@@ -8,6 +8,7 @@ The problem our team will be investigating is natural language processing and th
 What reading will you examine to provide context and background?
 
 https://www.kaggle.com/docs/tpu
+
 https://www.kaggle.com/code/anasofiauzsoy/tutorial-notebook/notebook
 
 What data will you use? If you are collecting new data, how will you do it?
