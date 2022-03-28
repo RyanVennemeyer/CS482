@@ -19,7 +19,7 @@ What method or algorithm are you proposing? If there are existing implementation
 
 How will you evaluate your results? Qualitatively, what kind of results do you expect (e.g. plots or figures)? Quantitatively, what kind of analysis will you use to evaluate and/or compare your results (e.g. what performance metrics or statistical tests)?
 
-
+The way we are going to evaluate our results is by giving a dataset and depending on how accurate it is will depend on how high the percentage will be given.
 
 The problem our team will be investigating is natural language processing and the comparison between two sentences, do these sentences relate to one another? Contradict one another? Or have no relations whatsoever? Our job is to evaluate sentence A and B with values 0,1,2 based on the comparison between the two statements. This is interesting because it is the starting point of learning speech recognition and voice analytics.
 There is an existing method shown in a demo, using the keras library. The approach taken is to use a recurrent neural network solution, to the binary classification problem presented.
