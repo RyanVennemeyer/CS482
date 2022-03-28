@@ -7,6 +7,9 @@ The problem our team will be investigating is natural language processing and th
 
 What reading will you examine to provide context and background?
 
+https://www.kaggle.com/docs/tpu
+https://www.kaggle.com/code/anasofiauzsoy/tutorial-notebook/notebook
+
 What data will you use? If you are collecting new data, how will you do it?
 
 What method or algorithm are you proposing? If there are existing implementations, will you use them and how? How do you plan to improve or modify such implementations? You don’t have to have an exact answer at this point, but you should have a general sense of how you will approach the problem you are working on.
