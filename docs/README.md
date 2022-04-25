@@ -1,5 +1,5 @@
 
-Tensorflow Vs. Flax
+#Tensorflow Vs. Flax
 
 Author(s): Bradly Whitman, Deepika Venkatesan, Ryan Vennemeyer
 
