@@ -63,10 +63,7 @@ This study by Starc and Mladenic experiments with a new metric for NLU’s. Simi
 ## Data (10%): Describe the data you are working with for your project. What type of data is it? Where did it come from? How much data are you working with? Did you have to do any preprocessing, filtering, or other special treatment to use this data in your project?
 
 
-The data we are using are all .csv files acquired from the kaggle API. Test.csv 
-
-
-The data we used for this project is a dataset provided by the competition tutorial from Kaggle. There are two CSV files, one containing a set to be used for model training, and another for testing. The training set contains 12121 premise-hypothesis pairs with classification (labels), while the test set 5195 pairs does not include their labels. The total size of these files is about 4MB and were used directly in our project. In addition, the premise-hypothesis pairs in these files have fields for ID number, language classification, and the two letter abbreviation of its language
+The data we used for this project is a dataset provided by the competition tutorial from Kaggle. Included are two CSV files, one containing a set to be used for model training, and another for testing. The training set contains 12121 premise-hypothesis pairs with classification (labels), while the test set 5195 pairs does not include their labels. In addition, the premise-hypothesis pairs in these files have fields for ID number, language classification, and the two letter abbreviation of its language.The total size of these files is about 4MB, but for the use of our project we used a smaller subset. In our first trial, we used 152 pairs out of the given set, to reduce runtime, while in the second model–which was used the Colab provided TPU–we decided to attempt double the size as it would be sufficiently fast.
 
 
 
