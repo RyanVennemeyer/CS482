@@ -83,18 +83,31 @@ The accuracy was ~.55, with 228-229 iterations / epoch. Now it was time to see h
 For Flax we increased the dataset from 152 to 302 iterations per epoch. And the the iterations / epoch came out to be 229s for the first iteration 
 
 
-
-
  
 And 231 seconds for the second epoch iteration. 
 
+
+![pic3](https://user-images.githubusercontent.com/51283756/165016571-d79ff1f8-a9e7-4e60-a158-f139ea7167bf.jpg)
 
 
 While the accuracy did not change from the first iteration, it was already better than the TensorFlow run with double the data set.
 
 
-
 The accuracy was ~.47, but the total runtime was lengthy and overall impractical for large scale implementation. 
+
+
+Model Training Process:
+
+
+Loss and Accuracy over Epoch 2 - TensorFlow
+
+
+![pic5](https://user-images.githubusercontent.com/51283756/165016764-6e8a287a-6a0f-4680-98ad-a89d6bf2f0c2.jpg)
+
+
+
+![pic6](https://user-images.githubusercontent.com/51283756/165016770-d94e03f8-f5ad-49c4-9308-46cc5c8d4f34.jpg)
+
 
 
 Conclusion (5%) Summarize your key results - what have you learned? Suggest ideas for future extensions or new applications of your ideas.
