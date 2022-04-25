@@ -109,3 +109,4 @@ Loss and Accuracy over Epoch 2 - TensorFlow
 Conclusion (5%) Summarize your key results - what have you learned? Suggest ideas for future extensions or new applications of your ideas.
 
 
+In conclusion, from the datasets we ran, there is support for the claim that Flax is superior to TensorFlow in both speed/performance, and also accuracy, with a small scale dataset like this. We learned the role TPUs play in speeding up the process of compiling these datasets. We accidentally ran the original TensorFlow compile without enabling the TPU on Google Colab and the runtime was nearly an hour and 30 minutes. This definitely demonstrates the optimization TPUs provide. 
