@@ -1,11 +1,7 @@
 
+Tensorflow Vs. Flax
 
-
-
-Project Report
-The following is a suggested structure for your report, as well as the rubric that we will follow when evaluating reports.
-
-Title, Author(s)
+Author(s): Bradly Whitman, Deepika Venkatesan, Ryan Vennemeyer
 
 Abstract: Briefly describe your problem, approach, and key results. Should be no more than 300 words.
 
