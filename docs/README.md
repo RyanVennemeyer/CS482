@@ -113,30 +113,3 @@ Loss and Accuracy over Epoch 2 - TensorFlow
 Conclusion (5%) Summarize your key results - what have you learned? Suggest ideas for future extensions or new applications of your ideas.
 
 
-
-Is your paper clearly written and nicely formatted? Writing / Formatting (5%)
-
-
-Supplementary Material, not counted toward your 6-8 page limit and submitted as a separate file.
-
-
-Your supplementary material might include:
-
-
-Cool videos, interactive visualizations, demos, etc.
-
-
-Examples of things to not put in your supplementary material:
-
-
-The entire PyTorch/TensorFlow Github source code.
-
-
-Any code that is larger than 10 MB.
-
-
-Model checkpoints.
-
-
-Submission: You will submit your final report as a markdown + img files under /docs in your Github repo, obviously together with your code and a README file that describes how anyone can run it to replicate your results. It is highly advised to author a Medium article about your work.
-
