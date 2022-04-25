@@ -18,23 +18,44 @@ If you have two sentences, there are three ways they could be related: one could
 NLP is important because it helps resolve ambiguity in language and adds useful numeric structure to the data for many downstream applications, such as speech recognition or text analytics. The reason that this project is important is because of the relationships between sentences. The application of this could be impactful for fact-checking, identifying fake news, analyzing text, and much more.
 
 
+The resulting efficiency was much higher with the use of flax and the incorporation of JAX into the original model. From an average 228 to 115 seconds per iteration, there was nearly a 99% increase in efficiency overall. The use of a larger data set–double the size of the original–did not affect the overall accuracy of predictions.
+
+
 
 Related Work (10%): Discuss published work that relates to your project. How is your approach similar or different from others? 
 
+https://www.kaggle.com/code/anasofiauzsoy/tutorial-notebook/notebook
 
-https://theaisummer.com/jax/
+
+The tutorial provided by the Kaggle competition was the base for our first test. We used this source to analyze the sample dataset and record the results that could be obtained without the use of the JAX library. 
+
 
 
 https://towardsdatascience.com/5-nlp-models-that-you-need-to-know-about-754594a3225b
 
 
+
+This paper explains the existing language processing models that can be used in the development of NLIs, such as BERT, RoBERTa, and XLnet. After recognizing the differences we used BERT to obtain satisfactory results with a less burdensome data set.
+
+
+
 https://towardsdatascience.com/creating-word-embeddings-with-jax-c9f144901472
+
 
 
 https://medium.com/geekculture/a-2021-guide-to-improving-cnns-optimizers-adam-vs-sgd-495848ac6008
 
 
-https://www.kaggle.com/code/anasofiauzsoy/tutorial-notebook/notebook
+This source serves as an introduction to RMSProp, momentum, and the overall advantages to using them over traditional SGD. Our model utilizes Adam, a hybridization of both features to reach a happy medium, which has been observed to provide optimal results thus far.
+
+
+
+1607.06025.pdf (arxiv.org)
+
+
+
+This study by Starc and Mladenic experiments with a new metric for NLU’s. Similar to our project, they utilize the Adam method during model training. This source was used to get a better understanding of NLU model generation and usage.
+
 
 
 
