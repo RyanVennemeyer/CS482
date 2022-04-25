@@ -9,6 +9,10 @@ Title, Author(s)
 
 Abstract: Briefly describe your problem, approach, and key results. Should be no more than 300 words.
 
+
+When comparing two strings there is more to know then just the words being read but the meaning behind them. For model generation we use Adam, a method that is able to store both the individual learning rate of the RMSProp and the weighted average of momentum. Momentum and RMSProp are methods used to take in formation in and train machines and adam is the combination of the two methods. This is how we are able to find out the difference between them are. When processing the dataset it is more efficient to use the JAX import so that you are processing in a more efficient way to save time and processing power. First the NPL is tested without the JAX library to know how long and inefficient the process is. Subsequently, when the code is run with the JAX framework the difference in runtime can be observed. Time is essential when it comes to processing data and if things are not optimized, bigger datasets will not be usable due to inefficiency, lowering the value of the machine. 
+
+
 Introduction (10%): Describe the problem you are working on, why it’s important, and an overview of your results
 If you have two sentences, there are three ways they could be related: one could entail the other, one could contradict the other, or they could be unrelated. Natural Language Inferencing (NLI) is a popular NLP problem that involves determining how pairs of sentences (consisting of a premise and a hypothesis) are related. Your task is to create an NLI model that assigns labels of 0, 1, or 2 (corresponding to entailment, neutral, and contradiction) to pairs of premises and hypotheses. To make things more interesting, the train and test set include text in fifteen different languages! You can find more details on the dataset by reviewing the Data page.
 
