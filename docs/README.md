@@ -66,13 +66,6 @@ Experiments (30%): Discuss the experiments that you performed to demonstrate tha
 
 While TensorFlow is definitely a great tool and provides users with immense support for machine learning in general. Jax works to hone in on maximizing performance above all else. To confirm this we decided to first use tensorflow to run our training data set, and the results were as follows:
 
-Picture's in doc
-
-
-Epoch ½
-
- 
-Epoch 2/2
 
 
 The accuracy was ~.47, but the total runtime was lengthy and overall impractical for large scale implementation. 
