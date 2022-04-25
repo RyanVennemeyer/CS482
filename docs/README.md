@@ -67,6 +67,32 @@ Experiments (30%): Discuss the experiments that you performed to demonstrate tha
 While TensorFlow is definitely a great tool and provides users with immense support for machine learning in general. Jax works to hone in on maximizing performance above all else. To confirm this we decided to first use tensorflow to run our training data set, and the results were as follows:
 
 
+Epoch ½
+
+
+![pic1](https://user-images.githubusercontent.com/51283756/165016421-ac28c06d-cac6-4b03-b65f-043f09fd7b95.jpg)
+
+ 
+Epoch 2/2
+
+
+![pic2](https://user-images.githubusercontent.com/51283756/165016468-cc79ec7e-dcba-4c2b-a5c6-7543fdecb141.jpg)
+
+
+The accuracy was ~.55, with 228-229 iterations / epoch. Now it was time to see how Flax compared to this result. 
+For Flax we increased the dataset from 152 to 302 iterations per epoch. And the the iterations / epoch came out to be 229s for the first iteration 
+
+
+
+
+ 
+And 231 seconds for the second epoch iteration. 
+
+
+
+While the accuracy did not change from the first iteration, it was already better than the TensorFlow run with double the data set.
+
+
 
 The accuracy was ~.47, but the total runtime was lengthy and overall impractical for large scale implementation. 
 
